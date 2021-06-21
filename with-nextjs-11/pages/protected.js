@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Script
+        // src="http://localhost:3000/script.js"
         src='https://staticshield.vercel.app/script.js'
         data-site-id='c4c6c9a3-82d5-452c-9024-54f42e632267'
         strategy='beforeInteractive'></Script>
@@ -16,7 +17,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Password protected site</h1>
+        <h1 className={styles.title}>
+          You just visited a password protected site!!
+        </h1>
 
         <div className={styles.grid}>
           <a href='https://nextjs.org/docs' className={styles.card}>

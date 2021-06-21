@@ -114,7 +114,14 @@
 }
 
 .link {
+  font-size: 22px;
+  color: #0070f3;
   margin: 20px auto;
+  margin-top: 40px;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
