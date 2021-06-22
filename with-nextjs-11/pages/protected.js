@@ -18,7 +18,7 @@ export default function Home() {
       <Head>
         <noscript>
           <meta
-            // http-equiv='refresh'
+            httpEquiv='refresh'
             content='0; url=http://localhost:3000/errors/noscript'
           />
         </noscript>
