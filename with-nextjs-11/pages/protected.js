@@ -15,6 +15,14 @@ export default function Home() {
         src='https://staticshield.vercel.app/script.js'
         data-site-id='e1e74f43-888b-42e8-aa6d-9c73bfc74a1b'
         strategy='beforeInteractive'></Script>
+      <Head>
+        <noscript>
+          <meta
+            // http-equiv='refresh'
+            content='0; url=http://localhost:3000/errors/noscript'
+          />
+        </noscript>
+      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
