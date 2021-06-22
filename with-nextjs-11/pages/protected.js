@@ -22,14 +22,6 @@ export default function Home() {
           content='0; url=https://staticshield.vercel.app/errors/noscript'
         />
       </noscript>
-      <Head>
-        <noscript>
-          <meta
-            httpEquiv='refresh'
-            content='0; url=http://localhost:3000/errors/noscript'
-          />
-        </noscript>
-      </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
           You just visited a password protected site!!
@@ -38,27 +30,18 @@ export default function Home() {
         <div className={styles.grid}>
           <a href='https://nextjs.org/docs' className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href='https://nextjs.org/learn' className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>
+              Find in-depth information about StaticShield and its features.
+            </p>
           </a>
 
           <a
             href='https://github.com/vercel/next.js/tree/master/examples'
             className={styles.card}>
             <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-            className={styles.card}>
-            <h2>Deploy &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Discover StaticShield boilerplate projects with various
+              frameworks.
             </p>
           </a>
         </div>
