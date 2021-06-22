@@ -9,6 +9,7 @@
 </svelte:head>
 
 <main>
+	<img src="assets/banner.png"  alt="">
 	<h1>StaticShield + Svelte = ❤️</h1>
 	<p class="blue">You are in a secret zone which is password protected 🤯</p>
 	<p>Visit the <a href="https://staticshield.vercel.app/docs/svelte">StaticShield docs</a> to learn how to password protect Svelte apps.</p>
@@ -24,6 +25,10 @@
 
 	p {
 		font-size: 30px;
+	}
+
+	img {
+		max-width: 400px;
 	}
 
 	p.blue {
