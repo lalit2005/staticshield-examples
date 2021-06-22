@@ -5,7 +5,7 @@
 <svelte:head>
   <script
     data-site-id="446659db-e59b-4715-ae6e-668cdd7b143d"
-    data-cap="null"
+    data-cap="The password is 123test123"
     src="https://staticshield.vercel.app/script.js"></script>
   <noscript>
     <meta
