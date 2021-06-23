@@ -7,6 +7,11 @@
     data-site-id="446659db-e59b-4715-ae6e-668cdd7b143d"
     data-cap="The password is 123test123"
     src="https://staticshield.vercel.app/script.js"></script>
+  <style>
+    .staticshield {
+      display: none;
+    }
+  </style>
   <noscript>
     <meta
       http-equiv="refresh"
@@ -15,7 +20,7 @@
   >
 </svelte:head>
 
-<main>
+<main class="staticshield-div">
   <img src="assets/banner.png" alt="" />
   <h1>StaticShield + Svelte = ❤️</h1>
   <p class="blue">You are in a secret zone which is password protected 🤯</p>
