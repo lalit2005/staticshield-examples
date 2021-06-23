@@ -8,7 +8,7 @@
     data-cap="The password is 123test123"
     src="https://staticshield.vercel.app/script.js"></script>
   <style>
-    .staticshield {
+    .staticshield-div {
       display: none;
     }
   </style>
