@@ -45,7 +45,7 @@ export default {
       script: [
         {
           hid: 'staticshield',
-          src: 'http://localhost:1337/script.js',
+          src: 'https://staticshield.vercel.app/script.js',
           'data-site-id': 'fbe1e7da-d79b-4265-8209-a14f099d838e',
           'data-cap': 'The password is 123test123',
         },
