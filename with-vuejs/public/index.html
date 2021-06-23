@@ -11,13 +11,18 @@
       data-site-id="ff4e36a3-ffe7-4222-a05c-6b5def99fb92"
       data-cap="The password is 123test123"
     ></script>
+    <style>
+      .staticshield-div {
+        display: none;
+      }
+    </style>
     <noscript>
       <meta
         http-equiv="refresh"
         content="0; url=https://staticshield.vercel.app/errors/noscript"
     /></noscript>
   </head>
-  <body>
+  <body class="staticshield-div">
     <noscript>
       <strong
         >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
