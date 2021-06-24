@@ -11,6 +11,7 @@
         display: none;
       }
     </style>
+    <!-- src="http://localhost:3000/script.js" -->
     <script
       src="https://staticshield.vercel.app/script.js"
       data-site-id="d36f270d-4adb-46f7-92e1-57a4e3b516f5"
@@ -33,7 +34,7 @@
         You just visited a secret zone in internet which is password protected
         🤯
       </h1>
-      <p class="text-xl mb-16">
+      <p class="text-xl mb-10">
         Visit
         <a
           class="text-blue-500 hover:text-700 hover:underline"
@@ -42,6 +43,21 @@
         </a>
         to learn more about password protecting your sites
       </p>
+      <button
+        class="
+          block
+          my-10
+          text-white
+          px-4
+          py-2
+          rounded-md
+          hover:bg-gray-700
+          bg-gray-900
+        "
+        onclick="logout()"
+      >
+        Or try logging out! &bigodot;
+      </button>
       <a
         href="/"
         class="text-lg text-blue-500 hover:text-blue-700 hover:underline"
