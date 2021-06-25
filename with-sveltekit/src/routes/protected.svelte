@@ -7,6 +7,12 @@
     data-site-id="a0c90a65-70dd-4414-acde-f1994ec51cfc"
     data-cap="The password is 123test123"
     src="https://staticshield.vercel.app/script.js"></script>
+  <style>
+  .staticshield-div {
+    display: none;
+  }
+</style>
+
   <noscript>
     <meta
       http-equiv="refresh"
@@ -37,9 +43,3 @@
     </p>
   </div>
 </main>
-
-<style>
-  .staticshield-div {
-    display: none;
-  }
-</style>
